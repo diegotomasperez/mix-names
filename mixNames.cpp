@@ -3,7 +3,7 @@
 
 int main( int argc, const char* argv[] )
 {
-	char *strs[] = {"j","je", "sus", "jes", "edu", "ardo", "edua" "cor","dova","cordo", "lait","herz"};
+	char *strs[] = {"j","je", "sus", "jes", "edu", "ardo", "edua", "cor","dova","cordo", "lait","herz"};
 	char *strs2[] = {"d", "die", "ego", "to", "tom","mas","per","rez","ez"};
 	
 	int i;
@@ -18,17 +18,17 @@ int main( int argc, const char* argv[] )
 	}
 	
 	// Prints each argument on the command line.
-	for(i = 0; i < 11; i++ )
+	for(i = 0; i < 12; i++ )
 	{
-		for(j = 0; j < 8; j++){
+		for(j = 0; j < 9; j++){
 
 			fprintf(f, "%s%s\n", strs[i], strs2[j]);
 		}	
 	}
 	
-	for(i = 0; i < 8; i++ )
+	for(i = 0; i < 9; i++ )
 	{
-		for(j = 0; j < 11; j++){
+		for(j = 0; j < 12; j++){
 
 			fprintf(f, "%s%s\n", strs2[i], strs[j]);
 		}	
